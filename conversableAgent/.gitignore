@@ -1,0 +1,44 @@
+# Ignore virtual environments
+venv/
+.env/
+.venv/
+
+# Ignore API keys and secrets
+openai_api_key.txt
+*.env
+.env.local
+secrets.json
+
+# Ignore cache and temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+*.swp
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs and debug files
+logs/
+*.log
+
+# Ignore large model files or outputs
+*.pt
+*.ckpt
+*.onnx
+model_weights/
+output/
+
+# Ignore IDE/project files
+.vscode/
+.idea/
+*.iml
+
+# Ignore data files
+data/
+datasets/
+*.csv
+*.tsv
+*.jsonl
